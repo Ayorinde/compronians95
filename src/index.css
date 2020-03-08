@@ -1,13 +1,307 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+    font-size: 76%;
+}
+html, body{
+    overflow-x: hidden;
+}
+.compro.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.compro .c-header{
+    background-image: linear-gradient(105deg, transparent 0%, transparent 50%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%),
+        /* url(images/people-compro1.jpg); */
+        url(images/group-compro-banner-01.jpg);
+        
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+    border-radius: 3px;
+    /* height: 45vh; */
+ 
+   
+}
+.compro .row.c-row-welcome{   
+    height: 100%;
+}
+.compro .c-col-welcome{
+    
+}
+.compro .c-mini-welcome{
+    padding: 4rem 2rem;
+    text-align: center;
+
+}
+.compro .c-banner-title-1{
+    /* color: #24b47e; #6772e5; */
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 1.2rem;
+    margin: 1rem 2rem;
+    border: 1px solid #6772e5;
+    color: #6772e5;
+}
+
+.compro .c-title-1{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    padding: .8rem;
+    text-align: center;
+    color: #6772e5;
+    margin: .8rem;
+
+}
+
+.compro .c-margin{
+    margin-bottom: 3.2rem 2.4rem !important;
+
+}
+
+.compro .c-title-2{
+    font-size: 1.4rem;
+    margin: 1.5rem 1rem;
+    text-transform: uppercase;
+    color: #6772e5;
+}
+.compro .c-btn-group{
+    margin-top: 1.5rem;
+}
+.compro .c-para-1{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.compro .btn.btn-primary{
+    background-color: #6772e5;
+    margin: 4px;
+    font-size: 1.1rem;
+    border: none;
+    padding: 1rem;
+    /* #6772e5  rgb(185, 244, 188);*/
+}
+.compro .c-alt-color{
+    color: #6772e5;
+    display: inline-block;
+    margin: 0 .3rem; 
+}
+.compro .btn.btn-outline-primary{
+    border-color:#6772e5;
+    color: #6772e5;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.compro .btn.btn-outline-primary:hover{
+    color: #6772e5;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-color: #6772e5;
+}
+
+.compro .c-award-donate-book{
+    width: 95%;
+    padding: 2rem 1rem;
+    text-align: center;
+
+}
+
+.compro .c-block{
+    padding: 1rem;
+    /* border: 1px solid #24b47f25;
+    border-radius: 1rem 1rem; */
+    
+}
+.compro .c-block .c-para-1{
+    min-height: 6.2rem;
+}
+.compro .c-block-title{
+    color: #6772e5;
+    font-size: 1.4rem;
+}
+.compro .c-block .btn{
+    padding: .8rem 3rem;   
+}
+.compro .c-carousel-group{
+    height: 35rem;
+}
+.compro .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.compro .c-card-wrapper{
+    padding: 0;
+    padding-left: 2rem;
+}
+
+.compro .c-card-wrapper img{
+    height: 20rem;
+    object-fit: cover;
+}
+
+.compro .c-card-image-wrapper{
+    height: 20rem;
+}
+
+.compro .c-card-wrapper .card .card-body{
+    padding: 1rem 2rem;
+    /* min-height: 30rem; */
+
+}
+
+.compro .c-card-wrapper .card .card-body .card-title{
+    color: #6772e5;
+    font-size: 1.8rem;
+    padding: 1rem;
+
+
+}
+
+.compro .c-member-profile{
+    margin-bottom: 2rem;
+}
+
+.compro .c-signup-section{
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid gray;
+}
+
+.compro .c-profile-section{
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid gray;
+    
+}
+
+.compro .c-profile-section img{
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    border-radius: 10rem;
+}
+
+/* .compro .c-award-donate-book .c-content-b4-btn{
+    min-height: 12rem;
+} */
+
+.compro .c-edit-profile-label{
+    
+    padding: 1.5rem;
+    border-radius: 2px;
+    color: #fff;
+    /* margin-bottom: 4rem; */
+    background-color: #6772e5;
+}
+.compro .c-edit-profile-input{
+    opacity: 0;
+    display: block;
+}
+.compro .c-profile-body{
+    margin-top: 3rem;
+}
+.compro .c-hide{
+    display: none;
+}
+.compro .c-show{
+    display: block;
+}
+.compro .c-mini-welcome .c-btn-group .btn{
+    min-width: 13.5rem;
+}
+
+
+
+@media only screen and (max-width: 575px) {
+    .compro .c-header{
+        background-image: linear-gradient(105deg, 
+        transparent 0%, transparent 12%,
+         rgba(255,255,255,0.9) 12%, rgba(255,255,255,0.9) 50%),
+         url(images/group-compro-banner-01.jpg);
+
+        background-color: rgba(255,255,255,0.9);
+        background-image: url(images/group-compro-banner-01.jpg) no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+       
+        /* height: 45vh; */    
+    } 
+    .compro .carousel-inner.c-carousel-group{
+        border: 2px solid #6772e5;
+        height: 26vh;
+    }
+    
+    .compro .btn.btn-primary{
+        margin: 2px;
+        font-size: .8rem;
+        border: none;
+        padding: .8rem;
+        /* #6772e5  rgb(185, 244, 188);*/
+    }
+    .compro .btn.btn-outline-primary{
+        font-size: .8rem;
+        padding: .8rem;
+    }
+
+    .compro .c-title-1{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        padding: .8rem;
+        text-align: center;
+        color: #6772e5;
+        margin: 1rem .4rem;
+    
+    }
+    .compro .c-block{
+        margin: 1rem;
+        padding: 2rem 1rem !important;
+        border: 1px solid #24b47f25;
+        border-radius: 1rem 1rem;
+    }
+    .compro .c-block .btn{
+        padding: .8rem 3rem;   
+    }
+
+    .compro .c-block-title{
+        
+        font-size: 1.4rem;
+    }
+    .compro .c-block .c-para-1{
+        min-height: auto !important;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        
+    }
+
+  
+    
+}
+
+
+@media only screen  and (max-width: 785px) {
+    .compro .c-banner-title-1{
+        font-size: 1.4rem;
+        padding: .8rem;
+        margin: 1rem;
+    }
+    .compro .c-title-2{
+        font-size: 1.2rem;
+        margin: .8rem;
+    }
+
+    .compro .c-block{
+        padding: .6rem;
+    }
+
+    .compro .c-para-1{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .compro .c-block .c-para-1{
+        min-height: 8rem;
+        padding: .5rem;
+    }
+  
+    
 }
